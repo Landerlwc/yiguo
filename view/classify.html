@@ -1,0 +1,39 @@
+<div id="classify" class="classify">
+	<!--验证搜索框是否为空的div-->
+	<div class="search_test">
+		<p>请输入关键词</p>
+		<span ng-click="classifyCtrl.search_test()">确定</span>
+	</div>
+	<!--搜索框-->
+	<div class="classify_top" ng-click="classifyCtrl.classify_top_search()">
+		<div class="classify_top_search">
+			<lable ng-click="classifyCtrl.search_show()" class="icon_search"></lable>
+			<form class="classify_top_form">
+				<input class="classify_top_input" type="search" placeholder="请输入商品名称" />
+			</form>
+			
+		</div>
+		<span>搜索</span>
+	</div>
+	
+	<!--食品列表-->
+	<div class="classify_foodList" >
+		<div class="classify_foodList_bigBox" ng-repeat="item in classifyCtrl.foodList()" >
+			<div class="classify_foodList_child" >
+				<div class="{{'classify_foodList_child_icon' + $index}} classify_foodList_child_icon"></div>
+				<div class="classify_foodList_child_content">
+					<h3>{{item.CategoryName}}</h3>
+					<p>{{item.Description}}</p>
+				</div>
+				<span class="classify_foodList_span" ng-class=" {true : 'classify_foodList_span', false : 'classify_foodList_span1'}[classifyCtrl.flag]"></span>
+			</div>		
+			<ul class="classify_foodList_ul" >
+				<li >
+					<a href="">全部</a>
+					<a href="" ng-repeat="food_kinds in item.Childs">{{food_kinds.CategoryName}}</a>
+				</li>
+			</ul>
+			
+		</div>
+	</div>	
+</div>

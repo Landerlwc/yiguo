@@ -1,0 +1,31 @@
+<div id="detail_cart" class="detail_cart">
+	<!--提示-->
+	<div class="warning">
+		<p></p>
+		<span class="cancel">取消</span>
+		<span class="affirm">确认</span>
+	</div>
+	<ul class="container">
+		<li ng-repeat="item in detail_cartCtrl.detail_cartArr()">
+			<img class="detail_cart_pic1" ng-src="{{item.Pictures[0]}}" alt="" />
+			<div class="detail_cart_center">
+				<p>{{item.CommodityName}}</p>
+				<div class="detail_cart_center_center">￥{{item.OriginalPrice}}<span>({{item.Spec}})</span></div>
+				<div class="count"><span class="decrease">-</span><span class="num">1</span><span class="add">+</span></div>
+			</div>
+			<img class="detail_cart_pic2" src="img/icon_delete.png" alt="" />
+		</li>
+	</ul>
+	<a href="" class="detail_cart_clear">清空购物车</a>
+	<!-- 底部 -->
+	<div class="payment">
+		<div class="left">
+			<p>优惠:<span>￥1</span></p>
+			<p>总计:<span>￥1</span></p>
+		</div>
+		<div class="right">去结算(<span>1</span>)</div>
+	</div>
+</div>
+
+		
+

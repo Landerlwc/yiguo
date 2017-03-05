@@ -1,0 +1,348 @@
+#home{
+	width: 100%;
+	background-color: #e2e2e2;
+	/*height: 266.64rem*/
+}
+/*头部*/
+#home>.home-head{
+	background-color: #32d683;
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	width: 100%;
+	height: 0.983rem;
+	z-index: 99999;
+}
+#home>.home-head>a{
+	width: 1.7712rem;
+	height: 0.482933rem;
+	text-align: center;
+	margin-top: 0.28rem;
+}
+#home>.home-head>a>span{
+	color: #f8fefb;
+	font-size: 0.32rem;
+}
+#home>.home-head>a>img{
+	width: 0.1928rem;
+	height: 0.104533rem;
+	position: relative;
+	top: -0.19rem;
+	left: 1.33333rem;
+}
+#home>.home-head>.home-head-right{
+	width: 75%;
+	height: 0.7rem;
+	background-color: #55d99b;
+	margin-top: 0.163333rem;
+	border-radius: 0.386667rem;
+}
+#home>.home-head>.home-head-right>img{
+	display: block;
+	width: 0.643733rem;
+	height: 0.643733rem;
+	margin-left: 0.236667rem;
+	margin-top: 0.05333rem;
+}
+/*轮播图*/
+#home #banner{
+	width: 100%;
+	margin-top: 0.862933rem;
+}
+#home #banner .swiper-wrapper{
+	width: 100%;
+}
+#home #banner .swiper-wrapper .swiper-slide{
+	width: 100%;
+}
+#home #banner .swiper-wrapper .swiper-slide img{
+	width: 100%;
+}
+#home #banner .swiper-pagination{
+	display: flex;
+	justify-content: flex-end;
+}
+/*#home #banner .swiper_pagination li{
+	background:white;
+	opacity: 1;
+}*/
+/*#home #banner .swiper_pagination li.swiper-pagination-bullet-active{
+	background:#FFD600;
+}*/
+
+
+/*导航*/
+#home #nav{
+	background-color: white;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	padding-top: 0.266667rem;
+}
+#home #nav>.nav_a{
+	width: 2.415467rem;
+	height: 2.034133rem;
+	display: flex;
+	flex-direction:column;
+}
+#home #nav>.nav_a>.nav_a_img{
+	display: block;
+	width: 1.288rem;
+	height: 1.288rem;
+	margin-left: 0.563733rem;
+}
+#home #nav>.nav_a>.nav_a_p{
+	width: 100%;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	text-align: center;
+	color: black;
+}
+/*易果快报*/
+#home #newsflash{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 0.885333rem;
+	margin-top: 0.026667rem;
+	background-color: white;
+}
+#home #newsflash>.newsflash_div{
+	border-right: 0.026667rem solid #e2e2e2;
+	width: 20%;
+	height: 0.506667rem;
+	align-self: center;
+}
+#home #newsflash>.newsflash_div>img{
+	width: 80%;
+	height: 0.506667rem;
+	
+}
+#home #newsflash>p:last-of-type{
+	height: 0.5312rem;
+	line-height: 0.5312rem;
+	text-align: center;
+	font-size: 0.32rem;
+	align-self:center;
+	margin-right: 0.8rem;
+}
+
+/*热卖排行*/
+#home #hotSale{
+	width: 100%;
+	margin-top: 0.186667rem;
+}
+#home #hotSale>img{
+	width: 100%;
+	height: 3.622933rem;
+}
+#home #hotSale>.hotSale_img{
+	margin-top: 0.16rem;
+	width: 100%;
+	height: 3.622933rem;
+	display: flex;
+	justify-content:space-between;
+}
+#home #hotSale>.hotSale_img>img{
+	width: 4.903733rem;
+	height: 3.622933rem;
+}
+
+
+/*主体*/
+#home #main{
+	width: 100%;
+	/*overflow: hidden;*/
+}
+#home #main>.main_div{
+	background-color: white;
+	width: 100%;
+	margin-top: 0.186667rem;
+}
+/*上边图片*/
+#home #main>.main_div>.main_nav{
+	width: 100%;
+	height: 5.797067rem;
+}
+
+
+/*下边图片*/
+#home #main>.main_div>.swiper-container{
+	width: 100%;
+	height: 4.035733rem;
+	display: flex;
+	overflow: auto;
+	
+}
+#home #main>.main_div>.swiper-container>.swiper-slide{
+	position: absolute;
+	margin-left: 0.383333rem;
+	width: 180%;
+	height: 3.817867rem;
+	display: flex;
+}
+#home #main>.main_div>.swiper-container>.swiper-slide>.swiper-slide11{
+	width: 2.945333rem;
+	margin-left: 12px;
+}
+#home #main>.main_div>.swiper-container>.swiper-slide>.swiper-slide11>img{
+	
+	display: inline-block
+	width: 2.845333rem;
+	height: 2.817867rem;
+
+}
+.main_banner_footer{
+	width: 100%;
+	height: 0.977867rem;
+	display: flex;
+	flex-direction: column;
+}
+.main_banner_footer>p{
+	width: 2.56rem;
+	height: 0.573333rem;
+	/*line-height: 0.573333rem;*/
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	color: black;
+	margin-bottom: 0.133333rem;
+
+}
+.main_banner_footer>.main_banner_footer_price{
+	width: 100%;
+	height: 0.59rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	
+	
+}
+.main_banner_footer_price>span:first-of-type{
+color: red;
+font-weight: bold;
+}
+.main_banner_footer_price>span:last-of-type{
+	color: darkgrey;
+}
+
+
+/*<!--主体底部-新鲜水果-->*/
+#home #main>.main_footer{
+	width: 100%;
+	background-color: white;
+	margin-top: 0.186667rem;
+}
+#home #main>.main_footer>p{
+	width: 100%;
+	height: 1.168rem;
+	line-height: 1.168rem;
+	text-align: center;
+	font-size: 0.533333rem;
+	font-weight: bold;
+}
+#home #main>.main_footer>.main_footer_img{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+#home #main>.main_footer>.main_footer_img>li>a{
+	width: 4.102133rem;
+	height: 4.754133rem;
+	display: flex;
+	flex-direction:column;
+}
+#home #main>.main_footer>.main_footer_img>li>a>img{
+	width: 3.407467rem;
+	height: 3.407467rem;
+}
+#home #main>.main_footer>.main_footer_img>li>a>.main_footer_img_div{
+	display: flex;
+	flex-direction:column;
+	width: 3.407467rem;
+	height: 1.590933rem;
+}
+#home #main .main_footer_img_div>p{
+	margin-top: 0.18rem;
+	width: 100%;
+	height: 0.373333rem;
+	line-height: 0.373333rem;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	color: black;
+}
+#home #main .main_footer_img_div_price{
+	display: flex;
+	justify-content:center;
+}
+#home #main .main_footer_img_div_price>span:first-of-type{
+	color: red;
+	font-weight: bold;
+	margin-right: 0.3rem;
+};
+#aaa{
+	color: gray;
+}
+
+/*板块*/
+#home #main .plate{
+	width: 100%;
+	height: 0.48rem;
+	margin-top: 0.186667rem;
+	display: flex;
+	justify-content:center;
+	margin-bottom: 0.266667rem;
+}
+#home #main .plate>p{
+	width: 1.646667rem;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	text-align: center;
+	color: gray;
+	border-right: 0.026667rem solid gray;
+}
+#home #main .plate>p:last-of-type{
+	border-right:0;
+}
+#home #main .foot{
+	width: 100%;
+	height: 0.96rem;
+	margin-bottom: 1.36rem;
+}
+#home #main .foot>p{
+	width: 100%;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	text-align: center;
+	color: gray;
+}
+/*易果生鲜app*/
+#home #fresh_app{
+	width: 100%;
+	height: 1.1128rem;
+	position: fixed;
+	left: 0.0rem;
+	bottom: 1.36rem;
+	background-color: red;
+	z-index: 999;
+}
+#home #fresh_app>img{
+	display: block;
+}
+#home #fresh_app>img:first-of-type{
+	position: absolute;
+	top: 0.333333rem;
+	right: 0.266667rem;
+	width: 0.386133rem;
+	height: 0.386133rem;
+}
+#home #fresh_app>img:last-of-type{
+	float: left;
+	width: 100%;
+	height: 1.1128rem;
+}

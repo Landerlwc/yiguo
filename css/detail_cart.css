@@ -1,0 +1,158 @@
+#detail_cart{
+	width: 100%;
+}
+/*提示部分*/
+#detail_cart>.warning{
+	position: fixed;
+	top: 40%;
+	left: 15%;
+	width: 6.933333rem;
+	height: 2.72rem;
+	border-radius: 0.133333rem;
+	border: 0.026667rem solid gray;
+	border-radius: 0.133333rem;
+	display: none;
+}
+#detail_cart>.warning>p{
+	width: 100%;
+	height: 1.653333rem;
+	line-height: 1.653333rem;
+	text-align: center;
+	font-size: 0.48rem;
+	color: red;
+}
+#detail_cart>.warning>span{
+	float: left;
+	display: inline-block;
+	width: 3.426667rem;
+	height: 1.04rem;
+	line-height: 1.04rem;
+	text-align: center;
+	font-size: 0.533333rem;
+	border-top:0.026667rem solid gray; 
+}
+#detail_cart>.warning>span:first-of-type{
+	border-right: 0.026667rem solid gray;
+}
+#detail_cart .container{
+	width:100%;
+}
+#detail_cart .container>li{
+	width: 100%;
+	height: 2.453333rem;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	border-bottom: 0.026667rem solid gray;
+}
+#detail_cart .container>li>img:first-of-type{
+	width: 2.266667rem;
+	height: 2.266667rem;
+	background-color: red;
+}
+#detail_cart .container>li>.detail_cart_pic2{
+	width: 0.666667rem;
+	height: 1.013333rem;
+	
+}
+#detail_cart .container>li>.detail_cart_center{
+	width: 6.4rem;
+	height: 2.266667rem;
+	display: flex;
+	flex-direction:column;
+}
+#detail_cart .container>li>.detail_cart_center>p{
+	width: 100%;
+	height: 0.86667rem;
+	padding-top: 0.1rem;
+}
+#detail_cart .detail_cart_center>.detail_cart_center_center{
+	width: 100%;
+	height: 0.533333rem;
+}
+#detail_cart .detail_cart_center>.detail_cart_center_center>span{
+	color: gray;
+}
+#detail_cart .detail_cart_center>.count{
+	display: flex;
+}
+#detail_cart .detail_cart_center>.count>span{
+	display: inline-block;
+	width: 0.8rem;
+	height: 0.666667rem;
+	line-height: 0.666667rem;
+	text-align: center;
+	font-size: 0.533333rem;
+	border: 0.026667rem solid gray;
+	color: gray;
+}
+#detail_cart .detail_cart_center>.count>span:nth-of-type(1){
+	border-top-left-radius: 0.133333rem;
+	border-bottom-left-radius: 0.133333rem;
+}
+#detail_cart .detail_cart_center>.count>span:nth-of-type(3){
+	border-top-right-radius: 0.133333rem;
+	border-bottom-right-radius: 0.133333rem;
+}
+#detail_cart .detail_cart_center>.count>span:nth-of-type(2){
+	border-left: 0;
+	border-right: 0;
+	color: black;
+}
+#detail_cart>a{
+	display: inline-block;
+	width: 3.2rem;
+	height: 0.933333rem;
+	line-height: 0.933333rem;
+	text-align: center;
+	font-size: 0.533333rem;
+	border-radius: 0.133333rem;
+	margin-top: 0.533333rem;
+	margin-left: 3.4rem;
+	color: green;
+	border: 0.026667rem solid gray;
+}
+
+
+/*结算部分*/
+#detail_cart>.payment{
+	position: absolute;
+	left: 0.0rem;
+	bottom: 1.333333rem;
+	border-top: 0.026667rem solid gray;
+	width: 100%;
+	height: 1.333333rem;
+	display: flex;
+	align-items:center;
+}
+#detail_cart>.payment>.left{
+	margin-left: 0.266667rem;
+	margin-right: 4.666667rem;
+}
+#detail_cart>.payment>.left>p{
+	font-size: 0.426667rem 
+	margin-top:0.266667rem;
+}
+#detail_cart>.payment>.left>p>span{
+	color: red;
+	font-weight: bold;
+}
+#detail_cart>.payment>.right{
+	width: 2.666667rem;
+	height: 0.933333rem;
+	line-height: 0.933333rem;
+	text-align: center;
+	font-size: 0.426667rem;
+	background-color: red;
+	color: white;
+	border-radius: 0.133333rem;
+}
+#detail_cart>.payment>.right>span{
+	position: relative;
+	top: -0.00333rem;
+	left: 0.0333rem;
+}
+#footer{
+	display: block;
+	z-index: 9999999;
+}

@@ -1,0 +1,64 @@
+<div id="detail" class="detail">
+	<!--商品添加成功-->
+	<div class="add_success" ng-click="add_success()">
+		商品添加成功
+	</div>
+	<!--图片部分-->
+	<div class="detail_img">
+		<div class="swiper-container">
+	    	<div class="swiper-wrapper">
+		       <a href="" class="swiper-slide" ng-repeat="item in detailCtrl.pictures">
+		       		<img ng-src="{{item}}" alt="" />
+		       </a>
+	    	</div>
+    		<div class="swiper-pagination"></div>
+		</div>
+		<img ng-click="detailCtrl.goBackHome()" src="img/return-icon.png" alt="" />
+	</div>
+	<!-- 价钱 -->
+	<div class="detail_img_price">
+		<p>{{ detailCtrl.CommodityName }}</p>
+		<span>￥{{ detailCtrl.OriginalPrice | number : 2 }}</span>
+		<div class="addAnd">
+			<span ng-click="detailCtrl.detail_price_down()">-</span>
+			<span class="detail_price">1</span>
+			<span ng-click="detailCtrl.detail_price_up()">+</span>
+		</div>
+	</div>
+	<!-- 规格 -->
+	<div class="standard">
+		<a href="">规格</a>
+		<a href="" ng-repeat="item in detailCtrl.Speces">{{item.Spec}}</a>
+	</div>
+	<!--地址-->
+	<div class="address">
+		<p>产地 <span style="color:black">{{detailCtrl.PlaceOfOrigin}}</span></p>
+		<p>{{detailCtrl.DeliveryTips}}</p>
+	</div>
+	<!--用户评价-->
+	<div class="evaluate">
+		<p>用户评价<span>({{detailCtrl.voteCount}})</span>　　　　　<span>{{detailCtrl.voteRate}}</span>好评<span>></span></p>
+	</div>
+	<!--商品图文详情-->
+	<div class="wifi">
+		<a href="">商品图文详情(建议在wifi下查看)</a>
+		<span>></span>
+	</div>
+
+
+	<div class="footer">
+			<ul>
+				<li ng-click="detailCtrl.goBack()"><a href="">
+					<img src="img/home.png" alt="" class="foot_home_img"/>
+					<p>首页</p>
+				</a></li>
+				
+				<li ng-click="detailCtrl.goCart()"><a href="">
+				    <span class="footer_cart_num" style="display: none;">0</span>
+					<img src="img/shopping-cart.png" alt="" />
+					<p>购物车</p></a>
+				</li>
+				<li ng-click="detailCtrl.addCart()">加入购物车</li>
+			</ul>
+		</div>
+</div>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="index.css"/>
+		<script type="text/javascript" src="lib/flexible.js" ></script>
+		<link rel="stylesheet" type="text/css" href="lib/swiper-3.3.1.min.css"/>
+		<script type="text/javascript" src="lib/swiper-3.3.1.min.js" ></script>
+	</head>
+	<body >
+		<!--路由切换容器-->
+		<div ng-view>
+			
+		</div>
+		<!--rootIsFooterShow是一个全局变量，控制footer是否显示-->
+		<div id="footer" ng-show="rootIsFooterShow">
+			<ul>
+				<li class="home" ng-click="">
+					<a href="#/home">
+						<img src="img/nav_home_selected_active.png" alt="" class="home_img" />
+						<p>首页</p>
+					</a>
+				</li>
+				<li class="classify">
+					<a href="#/classify">
+						<img src="img/nav_classify.png" alt="" class="classify_img" />
+						<p>分类</p>
+					</a>
+				</li>
+				<li class="eat">
+					<a href="#/eat">
+						<img src="img/nav_eat.png" alt="" class="eat_img" />
+						<p>吃饭吧</p>
+					</a>
+				</li>
+				<li class="cart">
+					<a href="#/cart">
+						<img src="img/nav_list.png" alt="" class="cart_img" />
+						<p>购物车</p>
+					</a>
+				</li>
+				<li class="mine">
+					<a href="#/mine">
+						<img src="img/nav_user.png" alt="" class="mine_img" />
+						<p>我的易果</p>
+					</a>
+				</li>
+			</ul>
+		</div>
+		
+		<script type="text/javascript" src="lib/jquery.js" ></script>
+		<script type="text/javascript" src="lib/iscroll.js" ></script>
+		<script type="text/javascript" src="lib/angular.min.js" ></script>
+		<script type="text/javascript" src="lib/angular-css.js" ></script>
+		<script type="text/javascript" src="lib/angular-route.js" ></script>
+		<script type="text/javascript" src="app.js" ></script>
+		<script type="text/javascript" src="js/services.js" ></script>
+		<script type="text/javascript" src="js/controller.js" ></script>
+		
+	</body>
+</html>
+

@@ -1,0 +1,35 @@
+<div id="eat" class="eat">
+	<!--轮播图-->
+	<div class="swiper-container">
+	    <div class="swiper-wrapper">
+	       <a href="" class="swiper-slide" ng-repeat="item in eatCtrl.pictures()">
+	       	<img ng-src="{{item.PictureUrl}}" alt="" />
+	       </a>
+	    </div>
+    	<div class="swiper-pagination"></div>
+	</div>
+	<!--导航-->
+	<div class="eat_nav">
+		<a href="" ng-repeat="item in eatCtrl.eat_nav()">
+			<img ng-src="{{item.PictureUrl}}" alt="" />
+			<p>{{item.BannerName}}</p>
+		</a>
+		<img src="img/new.png" alt="" />
+	</div>
+	<!--主体部分-->
+	<div class="main">
+		<div class="main_list" ng-repeat="item in eatCtrl.main_list()">
+			<span class="main_list_span1">{{item.OtherCategoryName}}</span>
+			<span class="main_list_span2">{{item.TotalReadNum}}</span>
+			<img class="main_list_img" ng-src="{{item.PictureUrl}}" alt="" />
+			<p class="main_list_p1">{{item.EfruitArticleTitle}}</p>
+			<p class="main_list_p2">{{item.EfruitArticleSummary}}</p>
+			<div class="main_list_time">
+				<img ng-src="{{item.AuthorPicture}}" alt="" />
+				<span class="main_list_span3">{{item.Author}}</span>
+				<span class="main_list_span4">{{item.PubDate}}</span>
+			</div>
+		</div>
+		
+	</div>
+</div>

@@ -1,0 +1,248 @@
+#detail{
+	width: 100%;
+}
+#detail .add_success{
+	width: 8.0rem;
+	height: 2.0rem;
+	line-height: 2.0rem;
+	text-align: center;
+	background-color:rgba(0,0,0,0.5) ;
+	color: white;
+	font-size: 0.533333rem;
+	position: fixed;
+	top: 8.066667rem;
+	left: 1.066667rem;
+	z-index: 8888;
+	display: none;
+	border-radius: 0.133333rem;
+}
+#detail .detail_img{
+	width: 100%;
+	height: 5.333333rem;
+	
+}
+#detail .detail_img>.swiper-container .swiper-slide{
+	display: block;
+	width: 5.333333rem;
+	height: 5.333333rem;
+}
+#detail .detail_img>.swiper-container img{
+	display: block;
+	width: 5.333333rem;
+	height: 5.333333rem;
+	margin-left: 2.133333rem;
+	
+}
+#detail .detail_img>img{
+	width: 0.96rem;
+	height: 0.96rem;
+	position: absolute;
+	top: 0.266667rem;
+	left: 0.4rem;
+	z-index: 9999;
+}
+
+/*价格*/
+#detail .detail_img_price{
+	width: 100%;
+	height: 2.0rem;
+	border-bottom: 0.026667rem solid gray;
+}
+#detail .detail_img_price>p{
+	width: 9.2rem;
+	height: 0.533333rem;
+	line-height: 0.533333rem;
+	margin-left: 0.4rem;
+	font-size: 0.373333rem;
+}
+#detail .detail_img_price>span{
+	display: block;
+	color: red;
+	font-size: 0.533333rem;
+	margin-left: 0.4rem;
+	margin-top: 0.466667rem;
+	float: left;
+}
+#detail .detail_img_price>.addAnd{
+	float: right;
+	margin-right: 0.4rem;
+	margin-top: 0.4rem;
+	width:2rem;
+	display: flex;
+}
+#detail .detail_img_price>.addAnd>span{
+	display: block;
+	width: 0.6rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	text-align: center;
+	font-size: 0.373333rem;
+	border:0.026667rem solid gray;
+}
+#detail .detail_img_price>.addAnd>span:nth-of-type(2){
+	border-left: 0;
+	border-right: 0;
+}
+
+/*规格*/
+#detail .standard{
+	width: 100%;
+	height: 1.306667rem;
+	padding-left: 0.4rem;
+	display: flex;
+	align-items:center;
+}
+
+#detail .standard>a{
+	width: 1.413333rem;
+	height: 0.746667rem;
+	line-height: 0.746667rem;
+	text-align: center;
+	color: black;
+	font-size: 0.333333rem;
+	margin-right: 0.4rem;
+	border-radius: 0.133333rem;
+	border: 0.026667rem solid gray;
+}
+#detail .standard>a:nth-of-type(1){
+	font-size: 0.373333rem;
+	color: gray;
+	border: 0.0rem;
+	width: 0.8rem;
+	height: 0.6rem;
+	line-height: 0.6rem;
+}
+#detail .standard>a:nth-of-type(2){
+	width: 1.413333rem;
+	height: 0.746667rem;
+	line-height: 0.746667rem;
+	text-align: center;
+	background-color: green;
+	color: white;
+	font-size: 0.333333rem;
+	margin-left:0.4rem;
+	margin-right: 0.4rem;
+	border-radius: 0.133333rem;
+}
+/*地址*/
+#detail .address{
+	width: 100%;
+	padding-top: 0.266667rem;
+	padding-bottom: 0.266667rem;
+	padding-left: 0.4rem;
+
+}
+#detail .address>p{
+	color: gray;
+	width: 9.2rem;
+	height: 0.64rem;
+	line-height: 0.64rem;
+
+}
+/*用户评价*/
+#detail .evaluate{
+	width: 100%;
+	padding-left: 0.4rem;
+	padding-top: 0.266667rem;
+	padding-bottom: 0.266667rem;
+	display: flex;
+	justify-content:space-around;
+}
+#detail .evaluate>p{
+	width: 9.2rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	color: gray;
+	font-size: 0.426667rem;
+}
+#detail .evaluate>p>span:nth-of-type(3){
+	position: absolute;
+	right: 1.125rem;
+	font-size: 0.533333rem;
+}
+#detail .evaluate>p>span:nth-of-type(2){
+	color: red;
+}
+
+/*wifi部分*/
+#detail .wifi{
+	width: 100%;
+	padding-left: 0.4rem;
+	padding-top: 0.266667rem;
+	padding-bottom: 0.266667rem;
+	display: flex;
+	align-items:center;
+	/*justify-content:space-between;*/
+}
+#detail .wifi>a{
+	width: 8.2rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	font-size: 0.426667rem;
+	color: gray;
+}
+#detail .wifi>span{
+	font-size: 0.533333rem;
+	color: gray;
+
+}
+
+/*footer*/
+#detail .footer{
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 1.36rem;
+	border-top: 0.026667rem solid #dddddd;
+	background-color: white;
+}
+#detail .footer ul{
+	height: 100%;
+	display: flex;
+	align-items:center;
+}
+#detail .footer ul>li>a{
+	display: inline-block;
+	width: 2.5824rem;
+	height: 1.36rem;
+	direction: flex;
+	flex-direction: column;
+	padding-top: 0.35rem;
+	position: relative;
+}
+#detail .footer ul>li:nth-of-type(2) span{
+	display: inline-block;
+	width: 0.366667rem;
+	height: 0.366667rem;
+	line-height: 0.366667rem;
+	text-align: center;
+	position: absolute;
+	top: 0.2rem;
+	left: 1.533333rem;
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+}
+#detail .footer ul>li>a>img{
+	width: 0.853333rem;
+	height: 0.64rem;
+	align-self:center;
+	margin-left: 0.85rem;
+	margin-bottom: 0.106667rem;
+}
+#detail .footer ul>li>a>p{
+	color: #8d8a8a;
+	font-size: 0.32rem;
+	text-align: center;
+}
+#detail .footer ul>li:last-of-type{
+	background-color: red;
+	color: white;
+	width: 50%;
+	height: 100%;
+	line-height: 1.36rem;
+	text-align: center;
+	font-size: 0.8rem;
+}
+

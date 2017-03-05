@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			#wrapper{
+			width: 100%;
+			overflow: auto;
+			}
+			#wrapper div{
+				position: absolute;
+				width: 600px;
+				height: 100px;
+				font-size: 0;
+			}
+		
+			#wrapper div>img{
+				display: inline-block;
+				width: 100px;
+				height: 100px;
+				list-style-type: none;
+				margin-right: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div>
+				<img src="img/home2.jpg" alt="" />
+				<img src="img/home3.jpg" alt="" />
+				<img src="img/home4.jpg" alt="" />
+				<img src="img/home5.jpg" alt="" />
+				<img src="img/home6.jpg" alt="" />
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="lib/iscroll.js" ></script>
+	<script type="text/javascript">
+		var myScroll = new IScroll('#wrapper', {
+			mouseWheel: true,
+             click: true,
+             eventPassthrough: true,//纵向滚动整个页面，横向滚动iscroll区域
+             scrollX:true,//默认是纵向，横向需要设置scrollX
+		});
+	</script>
+</html>

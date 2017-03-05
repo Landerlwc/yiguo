@@ -1,0 +1,190 @@
+#classify{
+	width: 100%;
+}
+/*搜索框验证*/
+#classify .search_test{
+	width: 6.933333rem;
+	height: 2.666667rem;
+	position: fixed;
+	top: 50%;
+	left: 15%;
+	display: none;
+}
+#classify .search_test>p{
+	width: 100%;
+	height: 1.866667rem;
+	line-height: 1.866667rem;
+	text-align: center;
+	font-size: 0.426667rem;
+	border-bottom: 0.026667rem solid gray;
+}
+#classify .search_test>span{
+	display: block;
+	width: 100%;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	font-size: 0.426667rem;
+}
+/*搜索框*/
+#classify .classify_top{
+	width: 100%;
+	height: 1.226667rem;
+	display: flex;
+	align-items:center;
+	justify-content:space-around;
+}
+#classify .classify_top>span{
+	color: #008842;
+}
+#classify .classify_top>.classify_top_search{
+	width: 8.0rem;
+	height: 1.0rem;
+	background-color: lightgrey;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	border-radius: 0.533333rem;
+}
+#classify .classify_top>.classify_top_search>.icon_search{
+	position: absolute;
+	left: 0.733333rem;
+	width: 0.56rem;
+	height: 0.56rem;
+	background: url(../img/icon_search.png) no-repeat;
+	background-size: 100% 100%;
+	text-indent: -999;
+}
+#classify .classify_top>.classify_top_search>.classify_top_form{
+	width: 7.6rem;
+	height: 0.933333rem;
+}
+#classify .classify_top>.classify_top_search .classify_top_input{
+	width: 6rem;
+	height: 0.933333rem;
+	line-height: 0.933333rem;
+	color: gray;
+	outline: none;
+	border: 0;
+	background-color: lightgrey;
+	position: absolute;
+	left: 1.333333rem;
+	font-size: 0.4rem;
+}
+/*食品列表*/
+#classify .classify_foodList{
+	width: 100%;
+	margin-bottom: 1.6rem;
+}
+.classify_foodList_bigBox{
+	width: 100%;
+}
+.classify_foodList_child{
+	width: 100%;
+	padding-top: 0.266667rem;
+	padding-bottom: 0.266667rem;
+	border-top: 0.026667rem solid gray;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	border-bottom: 0.026667rem solid gray;
+}
+.classify_foodList_span{
+	display: block;
+	width: 0.666667rem;
+	height: 0.666667rem;
+	background: url(../img/right.gif) no-repeat left center;
+}
+.classify_foodList_span1{
+	display: block;
+	width: 0.666667rem;
+	height: 0.666667rem;
+	background: url(../img/down.gif) no-repeat left center;
+}
+.classify_foodList_ul{
+	width: 100%;
+	display: none;
+}
+.classify_show{
+	display: block;
+}
+.classify_hide{
+	display: none;
+}
+.classify_foodList_ul>li{
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+}
+.classify_foodList_ul>li>a{
+	display: block;
+	width: 3.333333rem;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	text-align: center;
+	font-size: 0.426667rem;
+	color: black;
+
+}
+.classify_foodList_child_icon{
+	width: 1.28rem;
+	height: 1.28rem;
+	background: url(../img/icon-catalog.png) no-repeat;
+	background-size: 7.68rem 2.56rem;
+	overflow: hidden;
+	
+}
+.classify_foodList_child_content{
+	width: 7.466667rem;
+	height: 1.2rem;
+	margin-left: 0.266667rem;
+}
+.classify_foodList_child_content>h3{
+	width: 100%;
+	height: 0.56rem;
+	line-height: 0.56rem;
+	font-weight: bold;
+	font-size: 0.373333rem;
+}
+.classify_foodList_child_content>p{
+	width: 100%;
+	height: 0.48rem;
+	line-height: 0.48rem;
+	font-size: 0.393333rem;
+	color: gray;
+	margin-top: 0.133333rem;
+}
+
+.classify_foodList_child_icon0{
+	background-position: -5.12rem 0.0rem;
+}
+.classify_foodList_child_icon1{
+	background-position: 0rem 0.0rem;
+}
+.classify_foodList_child_icon2{
+	background-position: -3.84rem 0.0rem;
+}
+.classify_foodList_child_icon3{
+	background-position: 0rem -1.28rem;
+}
+.classify_foodList_child_icon4{
+	background-position: -2.56rem 0.0rem;
+}
+.classify_foodList_child_icon5{
+	background-position: -2.56rem -1.28rem;
+}
+.classify_foodList_child_icon6{
+	background-position: -1.28rem 0.0rem;
+}
+.classify_foodList_child_icon7{
+	background-position: -6.4rem 0.0rem;
+}
+.classify_foodList_child_icon8{
+	background-position: -5.12rem -1.28rem;
+}
+.classify_foodList_child_icon9{
+	background-position: -1.28rem -1.28rem;
+}
+.classify_foodList_child_icon10{
+	background-position: -3.84rem -1.28rem;
+}
